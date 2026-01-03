@@ -7,7 +7,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/cloud', function () {
-    return view('cloud');
+Route::get('/', function () {
+    return "Hello Cloud Laravel ☁️ (FREE)";
 });
+
 
